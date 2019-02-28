@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      reflectable:
+        generate_for:
+          include:
+            - lib/**.dart
